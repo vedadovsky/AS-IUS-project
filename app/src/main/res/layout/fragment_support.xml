@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pozadina"
+    tools:context=".SupportFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/contact"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Vedad Jahjaefendić"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/vedo_ig"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        app:srcCompat="@drawable/w_instagram"/>
+
+    <ImageView
+        android:id="@+id/vedo_fb"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="160dp"
+        app:srcCompat="@drawable/facebook"/>
+
+    <ImageView
+        android:id="@+id/vedo_gm"
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="154dp"
+        app:srcCompat="@drawable/gmail" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="235dp"
+        android:background="#ffffff"/>
+
+    <!-- Lex-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:text="Lejla Smajić"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/lex_ig"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/w_instagram"/>
+
+    <ImageView
+        android:id="@+id/lex_fb"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/facebook"/>
+
+    <ImageView
+        android:id="@+id/lex_gm"
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="314dp"
+        app:srcCompat="@drawable/gmail"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="385dp"
+        android:background="#ffffff"/>
+
+
+    <!--Talicka -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:text="Merjem Talić"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/talic_ig"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="460dp"
+        app:srcCompat="@drawable/w_instagram"/>
+
+    <ImageView
+        android:id="@+id/talic_fb"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="460dp"
+        app:srcCompat="@drawable/facebook"/>
+
+    <ImageView
+        android:id="@+id/talic_gm"
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="454dp"
+        app:srcCompat="@drawable/gmail"/>
+
+
+
+</RelativeLayout>

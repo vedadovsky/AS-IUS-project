@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226762313356",
+    "firebase_url": "https://ius-system-api.firebaseio.com",
+    "project_id": "ius-system-api",
+    "storage_bucket": "ius-system-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226762313356:android:741f2b55a97b2fc98af5a9",
+        "android_client_info": {
+          "package_name": "com.example.ius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226762313356-qljb2kdmesbgltvfsqm0tl4dep0d7lnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ius",
+            "certificate_hash": "b6d0c27b1e93a502bda9cacb3685fb64fd08340d"
+          }
+        },
+        {
+          "client_id": "226762313356-gicka68pd6orjphcoljahmec82d3irqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKeH_CRVZ7tFxFHd5oFsowXonYqKT4su0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226762313356-gicka68pd6orjphcoljahmec82d3irqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

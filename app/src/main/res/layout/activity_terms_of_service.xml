@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/naslovTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="68dp"
+            android:text="Terms of Service"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/termsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:padding="31dp"
+            android:text="@string/termsOfConditions"
+            android:textColor="@android:color/background_light"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/vedo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="end"
+            android:text="Made by Vedadovsky"
+            android:textColor="@android:color/background_light"
+            android:textSize="8sp" />
+    </LinearLayout>
+</ScrollView>
